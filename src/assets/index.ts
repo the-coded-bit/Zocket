@@ -3,3 +3,7 @@ export { default as houseLogo } from "./house.svg";
 export { default as profileIcon } from "./profile-2user.svg";
 export { default as volumeIcon } from "./volume-high.svg";
 export { default as bagIcon } from "./bag.svg";
+export { default as crownIcon } from "./crownIcon.svg";
+export { default as giftIcon } from "./gift.svg";
+export { default as notificationIcon } from "./notification.svg";
+export { default as downArrowIcon } from "./arrowDownIcon.svg";

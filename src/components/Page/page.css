@@ -1,7 +1,13 @@
+:root {
+  --font-family: "Eudoxus Sans";
+}
+
 .layout-wrapper {
   display: flex;
   width: 100vw;
   height: 100vh;
+  background-color: #f6f9ff;
+  font-family: var(--font-family);
 }
 
 .navbar-wrapper {
@@ -9,4 +15,23 @@
   height: 100%;
   width: 4.5rem;
   overflow: hidden;
+}
+
+.plan-wrapper {
+  background: rgba(242, 154, 46, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.user-profile-wrapper {
+  background-color: #ffffff;
+  font-family: "Eudoxus Sans";
+}
+
+@media (max-width: 800px) {
+  .user-profile-wrapper {
+    display: none;
+    font-family: 'Eudoxus Sans';
+  }
 }
