@@ -1,0 +1,12 @@
+.layout-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar-wrapper {
+  background-color: #001738;
+  height: 100%;
+  width: 4.5rem;
+  overflow: hidden;
+}
